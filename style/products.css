@@ -1,7 +1,24 @@
 .products-content{
-    padding: 200px;
+    /* padding: 200px; */
+    padding-top: 100px;
+    padding-bottom: 200px;
     background-color: rgba(245, 245, 245, 0.8);
     z-index: 1;
+}
+
+.filtro{
+  text-align: center;
+    text-transform: uppercase;
+    background-color: #346e60;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+    display: list-item;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    outline-offset: 70%;
 }
 
 .teste {
