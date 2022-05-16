@@ -18,13 +18,114 @@ img{
 .header{
     background: #fff;
     width: 100%;
-    top:0
+    position: fixed;
+    padding-bottom: 10px;
+    z-index: 1000;
+    top: 0;
 }
 
-.js .header{
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+
+#product-list{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+
+}
+
+.main-menu i{
+    color: white;
+
+}
+
+#product-list li{
+    background: #c3cfd3;
+    padding:20px;
+    border-radius:12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+  }
+  
+  #divBusca button{
+    float:right;
+    background-color: transparent;
+    background: transparent;
+    height:38px;
+    width: 55px;
+    border-style:none ;
+  }
+  
+  #divBusca{
+    display: block;
+    border:solid 3.5px rgba(47, 79, 79, 0.8);
+    margin-bottom: 20px;
+    border-radius:10px;
+    height:37px;
+    width:400px;
+    
+  }
+
+
+.button-add {
+    margin-bottom: 25px;
+    margin-right: 30px;
+}
+
+#add-button{
+    /*height: 45px;
+    width: 150px;
+    background:  #48b9a1;
+    background-color:  #48b9a1;
+    margin-right: 500px;*/
+    width: 150px;
+    height: 48px;
+    display: flex;
+    -webkit-box-pack: left;
+    justify-content: left;
+    -webkit-box-align: left;
+    align-items: center;
+    border: 1px solid #48b9a1;
+    background-color: #48b9a1;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease 0s;
+    border-radius: 0.25rem;
+    margin-top: 16px;
+
+}
+
+.button-action{
+    border-radius: 20px;
+    border: 1px solid #adc7cf;
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: #c9b5b5;
+}
+
+.button-action:hover{
+    background: #3c3a3a;
 }
 
 .logo-text{
@@ -40,6 +141,12 @@ img{
     color: #fff;
     float: left;
 }
+
+.product-content{
+    padding: 200px;
+    z-index: 1;
+}
+.button
 
 .header__nav{
     clear: left;
@@ -70,7 +177,7 @@ img{
 .header__btnMenu{
     float: right;
     margin: 1.5em;
-    background: transparent;
+    background: black;
     border: none;
     font-size: 14px;
 }
