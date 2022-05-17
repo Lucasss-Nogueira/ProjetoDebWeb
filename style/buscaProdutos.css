@@ -3,7 +3,7 @@ body {
 }
 
 .t-products {
-    background-image: linear-gradient(to right top, #5629c0, #5625cb, #5620d5, #551ae0, #5412eb);
+    background-image: linear-gradient(to right top, #ec8712, #ec8611, #f1860b, #f3860a, #fa8703);
     color: #fff;
     border-radius: 3px
 }
@@ -31,14 +31,14 @@ body {
 }
 
 .about span {
-    color: #5629c0;
+    color: #ec8712;
     font-size: 16px
 }
 
 .cart-button button {
     font-size: 12px;
     color: #fff;
-    background-color: #5629c0;
+    background-color: #ec8712;
     height: 38px
 }
 
@@ -46,13 +46,13 @@ body {
 button:active {
     font-size: 12px;
     color: #fff;
-    background-color: #5629c0;
+    background-color: #ec8712;
     box-shadow: none
 }
 
 .product_fav i {
     line-height: 40px;
-    color: #5629c0;
+    color: #ec8712;
     font-size: 15px
 }
 
@@ -74,7 +74,7 @@ button:active {
 }
 
 .product_fav:hover {
-    background: #5629c0
+    background: #ec8712
 }
 
 .product_fav:hover i {
