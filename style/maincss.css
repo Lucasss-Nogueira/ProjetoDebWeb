@@ -361,11 +361,12 @@ footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 50px solid #eeee;
   margin-bottom: 25px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  
   
 }
 

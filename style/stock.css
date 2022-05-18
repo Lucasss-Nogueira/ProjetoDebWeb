@@ -131,6 +131,7 @@ img{
     padding:0;
     margin:0;
 
+
 }
 
 .main-menu i{
@@ -139,7 +140,7 @@ img{
 }
 
 #product-list li{
-    background: rgb(238, 236, 236,.25);
+    background: rgb(169 156 156 / 55%);
     padding:20px;
     border-radius:12px;
     display: flex;
