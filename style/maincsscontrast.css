@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background-color: black;
 }
 
 img {
@@ -43,7 +44,7 @@ header {
   height: 38px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid white;
   padding: 0 10px;
   width: 300px;
 }
@@ -51,11 +52,11 @@ header {
 .botao-topo {
   height: 40px;
   padding: 0px 15px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid white;
   border-left: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: rgb(255, 128, 0);
+  background-color: black;
   display: flex;
   align-items: center;
   color: white;
@@ -63,37 +64,23 @@ header {
 
 .botao-topo:hover {
   background-color: white;
-  color: rgb(255, 128, 0);
+  color: white;
   transition-duration: 200ms;
-  cursor: pointer;
-}
-
-.botao-topo:active {
-  background-color: rgb(255, 179, 102);
-  color: rgb(209, 105, 0);
-  transition-duration: 100ms;
   cursor: pointer;
 }
 
 .login-topo {
   border-radius: 10px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid white;
   height: 40px;
   padding: 0 10px;
-  background-color: rgb(255, 128, 0);
-  color: white;
+  background-color: white;
+  color: black;
 }
 .login-topo:hover {
-  background-color: white;
-  color: rgb(255, 128, 0);
+  background-color: black;
+  color: white;
   transition-duration: 200ms;
-  cursor: pointer;
-}
-
-.login-topo:active {
-  background-color: rgb(255, 179, 102);
-  color: rgb(209, 105, 0);
-  transition-duration: 100ms;
   cursor: pointer;
 }
 
@@ -117,7 +104,7 @@ nav {
 }
 
 .nav-botao {
-  color: rgb(255, 128, 0);
+  color: black;
   background-color: white;
   height: 50px;
   border: none;
@@ -125,8 +112,10 @@ nav {
 }
 
 .nav-botao:hover {
-  background-color: rgb(255, 128, 0);
+  background-color: black;
   color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   transition-duration: 200ms;
 }
 
@@ -143,8 +132,8 @@ nav {
 
 .texto-flutuante {
   position: absolute;
-  border: 1px solid rgb(255, 128, 0);
-  background-color: white;
+  border: 1px solid white;
+  background-color: black;
   padding: 50px;
   padding-bottom: 25px;
   bottom: 6px;
@@ -156,12 +145,12 @@ nav {
 .banner-img {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid white;
   border-top: none;
 }
 
 .banner-text {
-  color: rgb(255, 128, 0);
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -171,7 +160,7 @@ nav {
 }
 
 .banner-subtext {
-  color: rgb(255, 128, 0);
+  color: white;
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
@@ -186,9 +175,9 @@ nav {
 
 .btn:link,
 .btn:visited {
-  background-color: rgb(255, 128, 0);
-  border: 1px solid rgb(255, 128, 0);
-  color: #fff;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -197,15 +186,9 @@ nav {
 }
 
 .btn:hover {
-  background-color: white;
-  color: rgb(255, 128, 0);
+  background-color: black;
+  color: white;
   transition-duration: 200ms;
-}
-
-.btn:active {
-  background-color: rgb(255, 179, 102);
-  color: rgb(209, 105, 0);
-  transition-duration: 100ms;
 }
 
 /* FIM BANNER TOPO */
@@ -224,14 +207,13 @@ nav {
 .cartas-meio {
   width: 300px;
   height: 500px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid white;
   border-radius: 25px;
 }
 
 .meio-flex {
   display: flex;
   justify-content: center;
-  color: rgb(255, 128, 0);
 }
 
 .cartas-link:link {
@@ -248,8 +230,8 @@ nav {
   margin-top: 50px;
   padding: 25px 25px;
   font-size: 100px;
-  color: rgb(255, 128, 0);
-  border: 1px solid rgb(255, 128, 0);
+  color: white;
+  border: 1px solid white;
   border-radius: 100px;
   height: 100px;
 }
@@ -257,21 +239,15 @@ nav {
 .ph-wrench:hover,
 .ph-storefront:hover,
 .ph-newspaper:hover {
-  color: white;
-  background-color: rgb(255, 128, 0);
+  color: black;
+  background-color: white;
   transition-duration: 200ms;
-}
-
-.ph-wrench:active,
-.ph-storefront:active,
-.ph-newspaper:active {
-  background-color: rgb(209, 105, 0);
 }
 
 .cartas-meio-titulo {
   margin-top: 20px;
   text-align: center;
-  color: rgb(255, 128, 0);
+  color: white;
   font-size: 20px;
   font-weight: 800;
 }
@@ -280,6 +256,7 @@ nav {
   margin: 20px 20px;
   font-size: 16px;
   text-align: center;
+  color: white;
 }
 
 /* FIM CONTEUDO MEIO */
@@ -289,12 +266,13 @@ nav {
 .barra-inferior {
   margin-top: 75px;
   height: 200px;
-  background-color: rgb(255, 128, 0);
+  background-color: white;
 }
 
 .barra-inferior-texto {
   padding-top: 50px;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   font-size: 24px;
 }
@@ -313,7 +291,8 @@ nav {
   height: 38px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid black;
+  background-color: white;
   padding: 0 10px;
   width: 300px;
 }
@@ -322,7 +301,8 @@ nav {
   height: 38px;
   /* border-top-left-radius: 10px;
   border-bottom-left-radius: 10px; */
-  border: 1px solid rgb(255, 128, 0);
+  background-color: white;
+  border: 1px solid black;
   padding: 0 10px;
   width: 300px;
 }
@@ -330,29 +310,23 @@ nav {
 .botao-inferior {
   height: 40px;
   padding: 0px 15px;
-  border: 1px solid rgb(255, 128, 0);
+  border: 1px solid black;
   margin-left: 1px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: white;
   display: flex;
   align-items: center;
-  color: rgb(255, 128, 0);
+  color: black;
 }
 
 .botao-inferior:hover {
-  background-color: rgb(255, 179, 102);
+  background-color: black;
   color: white;
   transition-duration: 200ms;
   cursor: pointer;
 }
 
-.botao-inferior:active {
-  background-color: rgb(255, 179, 102);
-  color: rgb(209, 105, 0);
-  transition-duration: 100ms;
-  cursor: pointer;
-}
 /* FIM BARRA INFERIOR */
 
 /* COMEÇO FOOTER */
@@ -361,13 +335,11 @@ footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: 50px solid #eeee;
+  margin-top: 50px;
   margin-bottom: 25px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
 
 .rodape-direita {
