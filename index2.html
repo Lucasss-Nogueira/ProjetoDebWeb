@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/maincss.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+
+  <body>
+    <div class="cabecario">
+      <header class="header">
+        <div class="barra-topo">
+          <div class="logo-topo">
+            <img src="img/logo-preto v2.png" />
+          </div>
+          <div class="busca-topo">
+            <div>
+              <input
+                class="busca-topo-campo"
+                type="text"
+                name="busca-topo"
+                placeholder="Buscar..."
+              />
+            </div>
+            <button class="botao-topo">
+              <i class="ph-magnifying-glass"></i>
+            </button>
+          </div>
+          <button class="login-topo">Login / Cadastro</button>
+        </div>
+      </header>
+      <nav class="nav">
+        <div class="barra-nav">
+          <a href="#"><button class="nav-botao">CATEGORIAS</button></a>
+          <a href="#"><button class="nav-botao">PRODUTOS</button></a>
+          <a href="#"><button class="nav-botao">PROMOÇÕES</button></a>
+          <a href="#"><button class="nav-botao">ESTOQUE</button></a>
+          <a href="#"><button class="nav-botao">SOBRE</button></a>
+          <a href="#"><button class="nav-botao">CONTATOS</button></a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="conteudo-central">
+      <content>
+        <div class="banner">
+          <div class="texto-flutuante">
+            <p class="banner-text">super descontos!</p>
+            <p class="banner-subtext">* Preços válidos até data indicada</p>
+            <a class="btn" href="#">Saiba mais</a>
+          </div>
+          <img src="img/banner-produto.jpg" class="banner-img" />
+        </div>
+        <div class="meio">
+          <div class="cartas-meio"><i class="ph-wrench"></i></div>
+          <div class="cartas-meio"><i class="ph-truck"></i></div>
+          <div class="cartas-meio"><i class="ph-newspaper"></i></div>
+        </div>
+      </content>
+    </div>
+  </body>
+</html>

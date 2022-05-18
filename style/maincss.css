@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* COMEÇO HEADER */
+
+.header {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 25px;
+}
+
+.barra-topo {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  gap: 20px;
+}
+
+.logo-topo {
+  width: 210px;
+  padding: 5px;
+}
+
+.busca-topo {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+}
+
+.busca-topo-campo {
+  height: 38px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid rgb(255, 128, 0);
+  padding: 0 10px;
+  width: 300px;
+}
+
+.botao-topo {
+  height: 40px;
+  padding: 0px 15px;
+  border: 1px solid rgb(255, 128, 0);
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(255, 128, 0);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.botao-topo:hover {
+  background-color: white;
+  color: rgb(255, 128, 0);
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.botao-topo:active {
+  background-color: rgb(255, 179, 102);
+  color: rgb(209, 105, 0);
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.login-topo {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 128, 0);
+  height: 40px;
+  padding: 0 10px;
+  background-color: rgb(255, 128, 0);
+  color: white;
+}
+.login-topo:hover {
+  background-color: white;
+  color: rgb(255, 128, 0);
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.login-topo:active {
+  background-color: rgb(255, 179, 102);
+  color: rgb(209, 105, 0);
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+/* FIM DO HEADER */
+
+/* COMEÇO NAV */
+
+.nav {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.barra-nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  height: 50px;
+}
+
+.nav-botao {
+  color: rgb(255, 128, 0);
+  background-color: white;
+  height: 50px;
+  border: none;
+  padding: 0 15px;
+}
+
+.nav-botao:hover {
+  background-color: rgb(255, 128, 0);
+  color: white;
+  transition-duration: 200ms;
+}
+
+/* FIM DO NAV */
+
+/* COMEÇO BANNER NO TOPO */
+
+.banner {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.texto-flutuante {
+  position: absolute;
+  border: 1px solid rgb(255, 128, 0);
+  background-color: white;
+  padding: 50px;
+  padding-bottom: 25px;
+  bottom: 6px;
+  left: 0px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.banner-img {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid rgb(255, 128, 0);
+  border-top: none;
+}
+
+.banner-text {
+  color: rgb(255, 128, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.banner-subtext {
+  color: rgb(255, 128, 0);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: rgb(255, 128, 0);
+  border: 1px solid rgb(255, 128, 0);
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(255, 128, 0);
+  transition-duration: 200ms;
+}
+
+.btn:active {
+  background-color: rgb(255, 179, 102);
+  color: rgb(209, 105, 0);
+  transition-duration: 100ms;
+}
+
+/* FIM BANNER TOPO */
