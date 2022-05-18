@@ -25,11 +25,106 @@ img{
     background: #fff;
     width: 100%;
     position: fixed;
-    padding-bottom: 10px;
+    padding-bottom:2 px;
     z-index: 1000;
     top: 0;
 }
 
+/*HEADER*/
+.header {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px;
+  }
+  
+  .barra-topo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+  }
+
+  .text-topo h1{ 
+      display: flex;;
+      height: 200px;
+  }
+  
+  .logo-topo img {
+    width: 210px;
+    padding: 175px;
+  }
+
+  .header {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px;
+  }
+  
+  .barra-topo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
+  .logo-topo {
+    width: 210px;
+    padding: 5px;
+  }
+
+  .login-topo {
+  border-radius: 10px;
+  border: 1px solid rgb(255, 128, 0);
+  height: 40px;
+  padding: 0 20px;
+  background-color: rgb(255, 128, 0);
+  color: white;
+  margin-left: 66%;
+}
+.login-topo:hover {
+  background-color: white;
+  color: rgb(255, 128, 0);
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.login-topo:active {
+  background-color: rgb(255, 179, 102);
+  color: rgb(209, 105, 0);
+  transition-duration: 100ms;
+  cursor: pointer;
+}
+
+.barra-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    height: 50px;
+  }
+  
+  .nav-botao {
+    color: rgb(255, 128, 0);
+    background-color: white;
+    height: 50px;
+    border: none;
+    padding: 0 15px;
+  }
+  
+  .nav-botao:hover {
+    background-color: rgb(255, 128, 0);
+    color: white;
+    transition-duration: 200ms;
+  }
 
 #product-list{
     list-style-type: none;
@@ -44,13 +139,18 @@ img{
 }
 
 #product-list li{
-    background: #c3cfd3;
+    background: rgb(238, 236, 236,.25);
     padding:20px;
     border-radius:12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    opacity: 70%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
 
 }
 
@@ -62,6 +162,7 @@ img{
     border:none;
     height:32px;
     width:226px;
+    border-style: hidden;
   }
   
   #btnBusca{
@@ -76,38 +177,38 @@ img{
     height:38px;
     width: 55px;
     border-style:none ;
+    
   }
   
   #divBusca{
     display: block;
-    border:solid 3.5px rgba(47, 79, 79, 0.8);
+    border:solid 2.85px rgba(47, 79, 79, 0.12);
     margin-bottom: 20px;
     border-radius:10px;
     height:37px;
     width:400px;
+
     
+  }
+
+  .fas fa-search{
+
   }
 
 
 .button-add {
     margin-bottom: 25px;
-    /* margin-right: 30px; */
 }
 
 #add-button{
-    /*height: 45px;
-    width: 150px;
-    background:  #48b9a1;
-    background-color:  #48b9a1;
-    margin-right: 500px;*/
     width: 250px;
     height: 48px;
     display: flex;
     -webkit-box-pack: left;
     -webkit-box-align: left;
     align-items: center;
-    border: 1px solid #48b9a1;
-    background-color: #48b9a1;
+    border: 1px solid rgb(255, 128, 0);
+    background-color: rgb(255, 128, 0);
     user-select: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -131,17 +232,17 @@ img{
     height: 35px;
     margin-right: 8px;
     cursor: pointer;
-    background: #c9b5b5;
+    background: rgba(214, 205, 205, 0.2);
 }
 
 .button-action:hover{
-    background: #3c3a3a;
+    background: rgba(214, 205, 205, 0.726);
 }
 
 .logo-text{
     text-align: center;
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: rgb(255, 128, 0);
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -493,8 +594,8 @@ overflow:visible;
 }
 
 .main-menu {
-background: #63c6ae;
-border-color: #63c6ae;
+background: rgb(255, 128, 0);
+border-color: rgb(255, 128, 0);
 border-right:1px solid #e5e5e5;
 position:fixed;
 top:0;
