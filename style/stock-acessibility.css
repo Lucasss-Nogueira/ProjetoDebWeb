@@ -43,7 +43,7 @@ img{
     background: #fff;
     width: 100%;
     position: fixed;
-    padding-bottom:2 px;
+    padding-bottom:2px;
     z-index: 1000;
     top: 0;
 }
@@ -587,15 +587,13 @@ img{
 .footer__logo{
     text-transform: uppercase;
 }
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 .fa-2x {
 font-size: 2em;
 }
 
 .fa {
-position: reative;
+position: relative;
 display: table-cell;
 width: 60px;
 height: 36px;
