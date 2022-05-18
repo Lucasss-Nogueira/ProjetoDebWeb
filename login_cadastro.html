@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Cadastro</title>
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/maincss.css" />
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="icon" href="img/logo-preto-minimalista.png"/>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+
+  <body>
+    <div class="cabecario">
+      <header class="header">
+        <div class="barra-topo">
+          <div class="logo-topo">
+            <img src="img/logo-preto v2.png" />
+          </div>
+          <div class="busca-topo">
+            <div>
+              <input
+                class="busca-topo-campo"
+                type="text"
+                name="busca-topo"
+                placeholder="Buscar..."
+              />
+            </div>
+            <button class="botao-topo">
+              <i class="ph-magnifying-glass"></i>
+            </button>
+          </div>
+          <button class="login-topo">Login / Cadastro</button>
+        </div>
+      </header>
+      <nav class="nav">
+        <div class="barra-nav">
+          <a href="#"><button class="nav-botao">CATEGORIAS</button></a>
+          <a href="#"><button class="nav-botao">PRODUTOS</button></a>
+          <a href="#"><button class="nav-botao">PROMOÇÕES</button></a>
+          <a href="#"><button class="nav-botao">ESTOQUE</button></a>
+          <a href="#"><button class="nav-botao">SOBRE</button></a>
+          <a href="#"><button class="nav-botao">CONTATOS</button></a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="conteudo-central">
+      <content>
+        <div class="containerLogin">
+            <div class="form-container">
+                <div class="form">
+                    <div class="title">
+                        JÁ TENHO CADASTRO
+                    </div>
+
+                    <input type="text" placeholder="Digite seu usuário" class="input">
+                    <input type="password" placeholder="Digite sua senha" class="input">
+
+                    <button type="submit" class="button">ENTRAR</button>
+                </div>
+
+                <div style="background-color: lightgrey; padding: 0.5px; min-height: 100%;"></div>
+
+                <div class="form">
+                    <div class="title">
+                        QUERO ME CADASTRAR
+                    </div>
+
+                    <input type="text" placeholder="E-mail *" class="input">
+                    <input type="password" placeholder="Crie sua senha *" class="input">
+                    <input type="password" placeholder="Confirme sua senha *" class="input">
+                    <input type="password" placeholder="CPF ou CNPJ" class="input">
+                    <input type="password" placeholder="CEP" class="input">
+
+                    <button type="submit" class="button button-outlined">CADASTRAR</button>
+                </div>
+            </div>
+        </div>
+      </content>
+    </div>
+  </body>
+</html>
